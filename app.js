@@ -6,7 +6,7 @@ app.use(bodyParser.urlencoded({extended: true}));
 app.set("view engine", "ejs");
 
 var campgrounds = [
-	{name: "Babusar Top", image: "https://www.photosforclass.com/download/pixabay-1208201"},
+	{name: "Babusar Top", image: "http://www.royalhotel.pk/wp-content/uploads/2013/08/babusar-top-815x338.jpg"},
 	{name: "Kashmir", image: "https://www.photosforclass.com/download/flickr-6333668591"},
 	{name: "Chitral", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtW3N7KpQJs0z9dmJvMXBoLrfzjFts1T9DsFfeT7ghFl1qwIga-A"}
 	];
